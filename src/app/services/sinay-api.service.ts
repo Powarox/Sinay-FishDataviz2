@@ -1,18 +1,18 @@
 import axios from "axios";
 import { Injectable } from '@angular/core';
 // import { AxiosInstance } from "axios";
+import { Especes } from '../models/especes';
 
 @Injectable({
     providedIn: 'root'
 })
 
 export class SinayApiService {
-
-    dataApi = [];
+    private dataApi: Especes[] = [];
 
     constructor() { }
 
-    getDataApi(): any[] {
+    getDataApi(): Especes[] {
         return this.dataApi;
     }
 

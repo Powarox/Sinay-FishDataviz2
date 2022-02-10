@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,13 +13,14 @@ import { MatListModule } from '@angular/material/list';
     declarations: [
         AppComponent,
         ListeEspecesComponent,
-        HomeComponent
+        HomeComponent,
     ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         NoopAnimationsModule,
         MatListModule,
+        FormsModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

@@ -1,4 +1,11 @@
 <div id="liste-especes">
+    <div id="filter-tool">
+        <h3>Recherche</h3>
+        <input type="text"> <!-- [FormControl]="filter" -->
+        <button >Fao <br> Code</button>
+        <button >French <br> Name</button>
+    </div>
+
     <section class="contentList">       
         <mat-nav-list class="list-elem">
             <div class="title">
@@ -6,12 +13,12 @@
                 <h3>French Name</h3>
                 <h3>Scientific Name</h3>
             </div>
-            <a mat-list-item class="row element" *ngFor="let item of data">
+            <a mat-list-item class="row element" *ngFor="let item of data"> <!-- filteredList$ | async -->
                 <div matLine>
                     <div id="row">
                         <p>{{ item.faoCode }}</p>
                         <p>{{ item.frenchName }}</p>
-                        <p>{{ item.spanishName }}</p>
+                        <p>{{ item.scientificName }}</p>
                     </div>
                 </div>
             </a>
