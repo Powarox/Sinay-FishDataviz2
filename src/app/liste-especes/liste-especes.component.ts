@@ -6,6 +6,7 @@ import { FormControl } from '@angular/forms';
 
 import { SinayApiService } from '../services/sinay-api.service';
 import { Especes } from '../models/especes';
+// import * as localData from '../localStorage/data.json';
 
 @Component({
     selector: 'app-liste-especes',
@@ -14,7 +15,15 @@ import { Especes } from '../models/especes';
 })
 
 export class ListeEspecesComponent implements OnInit {
-    data: Especes[] = this.service.getDataApi();
+    // data: Especes[] = this.service.getDataApi();
+
+    data: Especes[] = [
+        { 'faoCode': 'ADC', 'frenchName': 'hgjk', 'scientificName': 'uio' },
+        { 'faoCode': 'AEC', 'frenchName': 'cxc', 'scientificName': 'erofferf' },
+        { 'faoCode': 'ZDC', 'frenchName': 'yuio', 'scientificName': 'dze' },
+        { 'faoCode': 'FGC', 'frenchName': 'azer', 'scientificName': 'dtgsergsg' },
+        { 'faoCode': 'PFC', 'frenchName': 'un truc d', 'scientificName': 'zer' }
+    ];
 
     isActiveFao: Boolean = false;
     isActiveFra: Boolean = true;
@@ -25,29 +34,38 @@ export class ListeEspecesComponent implements OnInit {
     filter$: Observable<string>;
 
     constructor(private service: SinayApiService) { 
-        this.data = this.service.getDataApi();
+        // this.data = this.service.getDataApi();
         this.states$ = of(this.data);
         this.filter = new FormControl('');
         this.filter$ = this.filter.valueChanges;
 
-        if(this.isActiveFao) {
+        this.filteredStates$ = combineLatest(this.states$, this.filter$).pipe(
+            map(([states, filterString]) => 
+            states.filter(state => state.faoCode.toLowerCase().indexOf(filterString.toLowerCase()) !== -1))
+        );
+    }
+
+    ngOnInit(): void {
+                
+    }
+
+    // Change le filtrage en fonction de isActiveFao & isActiveFra
+    switchFilter() {
+        if(!this.isActiveFao) {
             this.filteredStates$ = combineLatest(this.states$, this.filter$).pipe(
                 map(([states, filterString]) => 
                 states.filter(state => state.faoCode.toLowerCase().indexOf(filterString.toLowerCase()) !== -1))
             );
         }
         else {
-             this.filteredStates$ = combineLatest(this.states$, this.filter$).pipe(
+            this.filteredStates$ = combineLatest(this.states$, this.filter$).pipe(
                 map(([states, filterString]) => 
                 states.filter(state => state.frenchName.toLowerCase().indexOf(filterString.toLowerCase()) !== -1))
             );
         }
     }
 
-    ngOnInit(): void {
-        // this.filteredStates$ = of(this.data);
-    }
-
+    // Change l'état du bouton pour ajouter une classe active 
     activateClass(elem: String) {
         if(elem === 'fao'){
             this.isActiveFao = false;
@@ -58,15 +76,4 @@ export class ListeEspecesComponent implements OnInit {
             this.isActiveFra = false;
         }
     }
-
-
 }
-
-    // @Input() especes: Especes;
-
-    // data: Especes[] = [
-    //     {'faoCode': 'GKL', 'frenchName': 'Amande commune', 'scientificName': 'Almendra de mar'},
-    //     {'faoCode': 'ANE', 'frenchName': 'Anchois', 'scientificName': 'Boquerón'},
-    //     {'faoCode': 'ACE', 'frenchName': 'Anchois', 'scientificName': 'Boquerón'},
-    //     {'faoCode': 'AUE', 'frenchName': 'Anchois', 'scientificName': 'Boquerón'},
-    // ];

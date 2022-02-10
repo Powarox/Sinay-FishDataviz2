@@ -27,6 +27,7 @@ export class SinayApiService {
         //         this.dataApi = localData.data;
         //     })
         //     .finally(() => console.log('Load data succes !') );
-        this.dataApi = localData.data;
+        
+        this.dataApi = localData;
     }
 }

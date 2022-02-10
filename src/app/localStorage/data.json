@@ -1,10 +1,4 @@
-{
-  "errorCode": 0,
-  "message": "Success",
-  "timestamp": 1644415217349,
-  "pageNumber": 0,
-  "totalPages": 1,
-  "data": [
+[
     {
       "faoCode": "GKL",
       "scientificName": "Glycymeris glycymeris",
@@ -1022,6 +1016,4 @@
       "family": "Labridae",
       "order": "Percoidei"
     }
-  ],
-  "size": 113
-}
+]
