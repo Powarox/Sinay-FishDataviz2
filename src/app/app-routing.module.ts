@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component'
 import { ListeEspecesComponent } from './liste-especes/liste-especes.component'
+import { DetailsEspecesComponent } from './details-especes/details-especes.component'
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'liste-especes', component: ListeEspecesComponent }
+    { path: 'liste-especes', component: ListeEspecesComponent },
+    { path: 'details-especes/:id', component: DetailsEspecesComponent }
 ];
 
 @NgModule({

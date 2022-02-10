@@ -8,12 +8,14 @@ import { ListeEspecesComponent } from './liste-especes/liste-especes.component';
 import { HomeComponent } from './home/home.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatListModule } from '@angular/material/list';
+import { DetailsEspecesComponent } from './details-especes/details-especes.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         ListeEspecesComponent,
         HomeComponent,
+        DetailsEspecesComponent,
     ],
     imports: [
         BrowserModule,
