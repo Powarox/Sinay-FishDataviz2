@@ -15,11 +15,13 @@
             </div>
             <a mat-list-item class="row element" *ngFor="let item of filteredStates$ | async">
                 <div matLine>
-                    <div id="row">
-                        <p>{{ item.faoCode }}</p>
-                        <p>{{ item.frenchName }}</p>
-                        <p>{{ item.scientificName }}</p>
-                    </div>
+                    <a [routerLink]="['/details-especes', item.faoCode]">
+                        <div id="row">
+                            <p>{{ item.faoCode }}</p>
+                            <p>{{ item.frenchName }}</p>
+                            <p>{{ item.scientificName }}</p>
+                        </div>
+                    </a>
                 </div>
             </a>
         </mat-nav-list>

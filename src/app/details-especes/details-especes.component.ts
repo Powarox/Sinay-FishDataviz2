@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-details-especes',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailsEspecesComponent implements OnInit {
 
-  constructor() { }
+    faoCode: String = '';
 
-  ngOnInit(): void {
-  }
+    constructor(private route: ActivatedRoute) { }
+
+    ngOnInit(): void {
+        this.route.params.subscribe((params: Params) => {
+            this.faoCode = params['faoCode'];
+        });
+    }
 
 }

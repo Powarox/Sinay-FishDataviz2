@@ -8,7 +8,7 @@ import { DetailsEspecesComponent } from './details-especes/details-especes.compo
 const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'liste-especes', component: ListeEspecesComponent },
-    { path: 'details-especes/:id', component: DetailsEspecesComponent }
+    { path: 'details-especes/:faoCode', component: DetailsEspecesComponent }
 ];
 
 @NgModule({
