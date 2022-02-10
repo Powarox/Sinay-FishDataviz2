@@ -1,0 +1,92 @@
+@import './_variables';
+
+#app {
+    color: $main-font-color;
+    font-family: 'Cabin', sans-serif;
+
+    header {
+        width: 100%;
+        height: 25vh;
+        background: linear-gradient(135deg, $header-first-color 0%, $header-second-color 100%);
+
+        .navigation {
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            #logo {
+                img {
+                    width: 175px;
+                    padding: 10px;
+                    background: $main-white-color;
+                    border-radius: 20px;
+                }
+            }
+
+            .nav {
+                a {
+                    margin: 0 20px;
+                    padding: 10px;
+                    color: $header-font-color;
+                    border-bottom: 3px solid transparent;
+                    font-size: 25px;
+                    font-weight: bold;
+                    transition: 0.4s;
+                }
+
+                .activePage {
+                    border-bottom: 3px solid $main-white-color;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 950px){
+    .navigation {
+        padding: 20px 5%;
+    }
+}
+
+@media (max-width: 600px){
+    .navigation {
+        .nav {
+            a {
+                margin: 0;
+            }
+        }
+    } 
+}
+
+@media (max-width: 515px){
+    .navigation {
+        #logo {
+            img {
+                width: 150px;
+            }
+        }
+        .nav {
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 515px){
+    .navigation #logo img {
+        width: 150px;
+    }
+    .navigation .nav a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 430px){
+    .navigation #logo img {
+        display: none;
+    }
+}
