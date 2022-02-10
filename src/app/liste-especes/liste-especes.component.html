@@ -1,1 +1,27 @@
-<p>liste-especes works!</p>
+<div id="liste-especes">
+    <section class="contentList">       
+        <mat-nav-list class="list-elem">
+            <div class="title">
+                <h3>Fao Code</h3>
+                <h3>French Name</h3>
+                <h3>Scientific Name</h3>
+            </div>
+            <a mat-list-item class="row element" *ngFor="let item of data">
+                <div matLine>
+                    <div id="row">
+                        <p>{{ item.faoCode }}</p>
+                        <p>{{ item.frenchName }}</p>
+                        <p>{{ item.spanishName }}</p>
+                    </div>
+                </div>
+            </a>
+        </mat-nav-list>
+    </section>
+</div>
+
+
+        <!-- <div v-for="(item, id) in filters" v-bind:key="item.faoCode">
+            <p>{{ item.faoCode }}</p>
+            <p>{{ item.frenchName }}</p>
+            <p>{{ item.scientificName }}</p>
+        </div> -->

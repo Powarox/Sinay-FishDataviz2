@@ -1,0 +1,48 @@
+@import '../_variables';
+
+
+#liste-especes {
+    margin: 50px 5%;;
+
+    .contentList {
+
+        .list-elem {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+            align-items: center;
+
+            .title {
+                margin: 0 16px;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                font-size: 22px;
+                border-bottom: 2px solid $light-grey-color;
+            }
+
+            #row {
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                border-bottom: 2px solid $light-grey-color;
+
+                &:hover {
+                    background: $light-grey-color;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+    @media (max-width: 1100px){
+        .contentList {
+            margin: 50px 5%;
+        }
+    }
+
+    @media (max-width: 900px){
+        .contentList {
+            margin: 50px 0;
+        }
+    }
