@@ -1,9 +1,9 @@
 <div id="liste-especes">
     <div id="filter-tool">
         <h3>Recherche</h3>
-        <input type="text" value='' [formControl]="filter"> <!-- [FormControl]="filter" -->
-        <button (click)="activateClass('fao'); switchFilter()" [ngClass]="{'active': isActiveFao === true}">Fao <br> Code</button>
-        <button (click)="activateClass('fra'); switchFilter()" [ngClass]="{'active': isActiveFra === true}">French <br> Name</button>
+        <input type="text" value='' [formControl]="filter">
+        <button (click)="activateClass('fao'); switchFilter()" [ngClass]="{'active': isActiveFao}">Fao <br> Code</button>
+        <button (click)="activateClass('fra'); switchFilter()" [ngClass]="{'active': isActiveFra}">French <br> Name</button>
     </div>
 
     <section class="contentList">       
@@ -13,7 +13,7 @@
                 <h3>French Name</h3>
                 <h3>Scientific Name</h3>
             </div>
-            <a mat-list-item class="row element" *ngFor="let item of filteredStates$ | async"> <!-- filteredList$ | async -->
+            <a mat-list-item class="row element" *ngFor="let item of filteredStates$ | async">
                 <div matLine>
                     <div id="row">
                         <p>{{ item.faoCode }}</p>
@@ -25,10 +25,3 @@
         </mat-nav-list>
     </section>
 </div>
-
-
-        <!-- <div v-for="(item, id) in filters" v-bind:key="item.faoCode">
-            <p>{{ item.faoCode }}</p>
-            <p>{{ item.frenchName }}</p>
-            <p>{{ item.scientificName }}</p>
-        </div> -->

@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { MatListModule } from '@angular/material/list';
+// import { MatListModule } from '@angular/material/list';
 import { map, startWith} from 'rxjs/operators';
 import { combineLatest, Observable, of } from 'rxjs';
 import { FormControl } from '@angular/forms';
 
 import { SinayApiService } from '../services/sinay-api.service';
 import { Especes } from '../models/especes';
-// import * as localData from '../localStorage/data.json';
 
 @Component({
     selector: 'app-liste-especes',
@@ -25,8 +24,8 @@ export class ListeEspecesComponent implements OnInit {
         { 'faoCode': 'PFC', 'frenchName': 'un truc d', 'scientificName': 'zer' }
     ];
 
-    isActiveFao: Boolean = false;
-    isActiveFra: Boolean = true;
+    isActiveFao: Boolean = true;
+    isActiveFra: Boolean = false;
 
     states$: Observable<Especes[]>;
     filteredStates$: Observable<Especes[]>;
@@ -36,7 +35,7 @@ export class ListeEspecesComponent implements OnInit {
     constructor(private service: SinayApiService) { 
         // this.data = this.service.getDataApi();
         this.states$ = of(this.data);
-        this.filter = new FormControl('');
+        this.filter = new FormControl('test');
         this.filter$ = this.filter.valueChanges;
 
         this.filteredStates$ = combineLatest(this.states$, this.filter$).pipe(
@@ -51,7 +50,7 @@ export class ListeEspecesComponent implements OnInit {
 
     // Change le filtrage en fonction de isActiveFao & isActiveFra
     switchFilter() {
-        if(!this.isActiveFao) {
+        if(this.isActiveFao) {           
             this.filteredStates$ = combineLatest(this.states$, this.filter$).pipe(
                 map(([states, filterString]) => 
                 states.filter(state => state.faoCode.toLowerCase().indexOf(filterString.toLowerCase()) !== -1))
@@ -68,12 +67,12 @@ export class ListeEspecesComponent implements OnInit {
     // Change l'état du bouton pour ajouter une classe active 
     activateClass(elem: String) {
         if(elem === 'fao'){
-            this.isActiveFao = false;
-            this.isActiveFra = true;
-        }
-        else {
             this.isActiveFao = true;
             this.isActiveFra = false;
+        }
+        else {
+            this.isActiveFao = false;
+            this.isActiveFra = true;
         }
     }
 }
