@@ -10,9 +10,9 @@ import { SinayApiService } from './services/sinay-api.service';
 export class AppComponent {
     title = 'angular-sinay-dataviz';
 
-    constructor(private sas: SinayApiService) { }
+    constructor(private service: SinayApiService) { }
 
     ngOnInit(): void {
-        this.sas.fetchDataFromSinayApi();
+        this.service.fetchDataFromSinayApi();
     }
 }
