@@ -1,0 +1,1027 @@
+{
+  "errorCode": 0,
+  "message": "Success",
+  "timestamp": 1644415217349,
+  "pageNumber": 0,
+  "totalPages": 1,
+  "data": [
+    {
+      "faoCode": "GKL",
+      "scientificName": "Glycymeris glycymeris",
+      "englishName": "Common European bittersweet",
+      "frenchName": "Amande commune",
+      "spanishName": "Almendra de mar",
+      "family": "Glycymerididae",
+      "order": "Bivalvia"
+    },
+    {
+      "faoCode": "ANE",
+      "scientificName": "Engraulis encrasicolus",
+      "englishName": "European anchovy",
+      "frenchName": "Anchois",
+      "spanishName": "Boquerón",
+      "family": "Engraulidae",
+      "order": "Clupeiformes"
+    },
+    {
+      "faoCode": "ELE",
+      "scientificName": "Anguilla anguilla",
+      "englishName": "European eel",
+      "frenchName": "Anguille d'Europe",
+      "spanishName": "Anguila europea",
+      "family": "Anguillidae",
+      "order": "Anguilliformes"
+    },
+    {
+      "faoCode": "SCR",
+      "scientificName": "Maja squinado",
+      "englishName": "Spinous spider crab",
+      "frenchName": "Araignée européenne",
+      "spanishName": "Centolla europea",
+      "family": "Majidae",
+      "order": "Brachyura"
+    },
+    {
+      "faoCode": "LEF",
+      "scientificName": "Bothidae",
+      "englishName": "Lefteye flounders nei",
+      "frenchName": "Arnoglosses, rombous nca",
+      "spanishName": "Rodaballos, rombos, etc. nep",
+      "family": "Bothidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "AVX",
+      "scientificName": "Atherina spp",
+      "englishName": "Sand smelts nei",
+      "frenchName": "Athérine",
+      "spanishName": "Pejerreyes mediterráneos nep",
+      "family": "Atherinidae",
+      "order": "Atheriniformes"
+    },
+    {
+      "faoCode": "SIL",
+      "scientificName": "Atherinidae",
+      "englishName": "Silversides(=Sand smelts) nei",
+      "frenchName": "Athérinidés nca",
+      "spanishName": "Pejerreyes nep",
+      "family": "Atherinidae",
+      "order": "Atheriniformes"
+    },
+    {
+      "faoCode": "BSS",
+      "scientificName": "Dicentrarchus labrax",
+      "englishName": "European seabass",
+      "frenchName": "Bar européen",
+      "spanishName": "Lubina",
+      "family": "Moronidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "SPU",
+      "scientificName": "Dicentrarchus punctatus",
+      "englishName": "Spotted seabass",
+      "frenchName": "Bar tacheté",
+      "spanishName": "Baila",
+      "family": "Moronidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "BLL",
+      "scientificName": "Scophthalmus rhombus",
+      "englishName": "Brill",
+      "frenchName": "Barbue",
+      "spanishName": "Rémol",
+      "family": "Scophthalmidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "MNZ",
+      "scientificName": "Lophius spp",
+      "englishName": "Monkfishes nei",
+      "frenchName": "Baudroies nca",
+      "spanishName": "Rapes nep",
+      "family": "Lophiidae",
+      "order": "Lophiiformes"
+    },
+    {
+      "faoCode": "BON",
+      "scientificName": "Sarda sarda",
+      "englishName": "Atlantic bonito",
+      "frenchName": "Bonite à dos rayé",
+      "spanishName": "Bonito del Atlántico",
+      "family": "Scombridae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "CPR",
+      "scientificName": "Palaemon serratus",
+      "englishName": "Common prawn",
+      "frenchName": "Bouquet commun",
+      "spanishName": "Camarón común",
+      "family": "Palaemonidae",
+      "order": "Natantia"
+    },
+    {
+      "faoCode": "WHE",
+      "scientificName": "Buccinum undatum",
+      "englishName": "Whelk",
+      "frenchName": "Buccin",
+      "spanishName": "Bocina",
+      "family": "Buccinidae",
+      "order": "Gastropoda"
+    },
+    {
+      "faoCode": "SQZ",
+      "scientificName": "Loliginidae",
+      "englishName": "Inshore squids nei",
+      "frenchName": "Calmars côtiers nca",
+      "spanishName": "Calamares de cercano nep",
+      "family": "Loliginidae",
+      "order": "Cephalopoda"
+    },
+    {
+      "faoCode": "POD",
+      "scientificName": "Trisopterus minutus",
+      "englishName": "Poor cod",
+      "frenchName": "Capelan de Méditerranée",
+      "spanishName": "Capellán",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "MEG",
+      "scientificName": "Lepidorhombus whiffiagonis",
+      "englishName": "Megrim",
+      "frenchName": "Cardine franche",
+      "spanishName": "Gallo del Norte",
+      "family": "Scophthalmidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "OUW",
+      "scientificName": "Alloteuthis spp",
+      "englishName": "Alloteuthis squids nei",
+      "frenchName": "Casserons nca",
+      "spanishName": "Puntillas nep",
+      "family": "Loliginidae",
+      "order": "Cephalopoda"
+    },
+    {
+      "faoCode": "WRF",
+      "scientificName": "Polyprion americanus",
+      "englishName": "Wreckfish",
+      "frenchName": "Cernier commun",
+      "spanishName": "Cherna",
+      "family": "Polyprionidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "CET",
+      "scientificName": "Dicologlossa cuneata",
+      "englishName": "Wedge sole",
+      "frenchName": "Céteau",
+      "spanishName": "Acedía",
+      "family": "Soleidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "HMM",
+      "scientificName": "Trachurus mediterraneus",
+      "englishName": "Mediterranean horse mackerel",
+      "frenchName": "Chinchard à queue jaune",
+      "spanishName": "Jurel mediterráneo",
+      "family": "Carangidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "HOM",
+      "scientificName": "Trachurus trachurus",
+      "englishName": "Atlantic horse mackerel",
+      "frenchName": "Chinchard d'Europe",
+      "spanishName": "Jurel",
+      "family": "Carangidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "COE",
+      "scientificName": "Conger conger",
+      "englishName": "European conger",
+      "frenchName": "Congre d'Europe",
+      "spanishName": "Congrio común",
+      "family": "Congridae",
+      "order": "Anguilliformes"
+    },
+    {
+      "faoCode": "SCE",
+      "scientificName": "Pecten maximus",
+      "englishName": "Great Atlantic scallop",
+      "frenchName": "Coquille St-Jacques atlantique",
+      "spanishName": "Vieira(=Concha de Santiago)",
+      "family": "Pectinidae",
+      "order": "Bivalvia"
+    },
+    {
+      "faoCode": "CSH",
+      "scientificName": "Crangon crangon",
+      "englishName": "Common shrimp",
+      "frenchName": "Crevette grise",
+      "spanishName": "Quisquilla",
+      "family": "Crangonidae",
+      "order": "Natantia"
+    },
+    {
+      "faoCode": "DPS",
+      "scientificName": "Parapenaeus longirostris",
+      "englishName": "Deep-water rose shrimp",
+      "frenchName": "Crevette rose du large",
+      "spanishName": "Gamba de altura",
+      "family": "Penaeidae",
+      "order": "Natantia"
+    },
+    {
+      "faoCode": "BRB",
+      "scientificName": "Spondyliosoma cantharus",
+      "englishName": "Black seabream",
+      "frenchName": "Dorade grise",
+      "spanishName": "Chopa",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "SBR",
+      "scientificName": "Pagellus bogaraveo",
+      "englishName": "Blackspot(=red) seabream",
+      "frenchName": "Dorade rose",
+      "spanishName": "Besugo",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "SBG",
+      "scientificName": "Sparus aurata",
+      "englishName": "Gilthead seabream",
+      "frenchName": "Dorade royale",
+      "spanishName": "Dorada",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "HAD",
+      "scientificName": "Melanogrammus aeglefinus",
+      "englishName": "Haddock",
+      "frenchName": "Églefin",
+      "spanishName": "Eglefino",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "EOI",
+      "scientificName": "Eledone cirrhosa",
+      "englishName": "Horned octopus",
+      "frenchName": "Élédone commune",
+      "spanishName": "Pulpo blanco",
+      "family": "Octopodidae",
+      "order": "Cephalopoda"
+    },
+    {
+      "faoCode": "SDV",
+      "scientificName": "Mustelus spp",
+      "englishName": "Smooth-hounds nei",
+      "frenchName": "Émissoles nca",
+      "spanishName": "Tollos nep",
+      "family": "Triakidae",
+      "order": "Carcharhiniformes"
+    },
+    {
+      "faoCode": "ILL",
+      "scientificName": "Illex spp",
+      "englishName": "Shortfin squids nei",
+      "frenchName": "Encornets rouges nca",
+      "spanishName": "Potas Illex nep",
+      "family": "Ommastrephidae",
+      "order": "Cephalopoda"
+    },
+    {
+      "faoCode": "SWO",
+      "scientificName": "Xiphias gladius",
+      "englishName": "Swordfish",
+      "frenchName": "Espadon",
+      "spanishName": "Pez espada",
+      "family": "Xiphiidae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "LIO",
+      "scientificName": "Necora puber",
+      "englishName": "Velvet swimcrab",
+      "frenchName": "Étrille commune",
+      "spanishName": "Nécora",
+      "family": "Portunidae",
+      "order": "Brachyura"
+    },
+    {
+      "faoCode": "GHL",
+      "scientificName": "Reinhardtius hippoglossoides",
+      "englishName": "Greenland halibut",
+      "frenchName": "Flétan noir",
+      "spanishName": "Fletán negro",
+      "family": "Pleuronectidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "ALB",
+      "scientificName": "Thunnus alalunga",
+      "englishName": "Albacore",
+      "frenchName": "Germon",
+      "spanishName": "Atún blanco",
+      "family": "Scombridae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "SYT",
+      "scientificName": "Scyliorhinus stellaris",
+      "englishName": "Nursehound",
+      "frenchName": "Grande roussette",
+      "spanishName": "Alitán",
+      "family": "Scyliorhinidae",
+      "order": "Carcharhiniformes"
+    },
+    {
+      "faoCode": "WEG",
+      "scientificName": "Trachinus draco",
+      "englishName": "Greater weever",
+      "frenchName": "Grande vive",
+      "spanishName": "Escorpión",
+      "family": "Trachinidae",
+      "order": "Trachinoidei"
+    },
+    {
+      "faoCode": "RNG",
+      "scientificName": "Coryphaenoides rupestris",
+      "englishName": "Roundnose grenadier",
+      "frenchName": "Grenadier de roche",
+      "spanishName": "Granadero de roca",
+      "family": "Macrouridae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "GUG",
+      "scientificName": "Eutrigla gurnardus",
+      "englishName": "Grey gurnard",
+      "frenchName": "Grondin gris",
+      "spanishName": "Borracho",
+      "family": "Triglidae",
+      "order": "Scorpaeniformes"
+    },
+    {
+      "faoCode": "GUU",
+      "scientificName": "Chelidonichthys lucerna",
+      "englishName": "Tub gurnard",
+      "frenchName": "Grondin perlon",
+      "spanishName": "Begel",
+      "family": "Triglidae",
+      "order": "Scorpaeniformes"
+    },
+    {
+      "faoCode": "GUR",
+      "scientificName": "Aspitrigla cuculus",
+      "englishName": "Red gurnard",
+      "frenchName": "Grondin rouge",
+      "spanishName": "Arete",
+      "family": "Triglidae",
+      "order": "Scorpaeniformes"
+    },
+    {
+      "faoCode": "GUX",
+      "scientificName": "Triglidae",
+      "englishName": "Gurnards, searobins nei",
+      "frenchName": "Grondins, cavillones nca",
+      "spanishName": "Cabetes, rubios nep",
+      "family": "Triglidae",
+      "order": "Scorpaeniformes"
+    },
+    {
+      "faoCode": "HER",
+      "scientificName": "Clupea harengus",
+      "englishName": "Atlantic herring",
+      "frenchName": "Hareng de l'Atlantique",
+      "spanishName": "Arenque del Atlántico",
+      "family": "Clupeidae",
+      "order": "Clupeiformes"
+    },
+    {
+      "faoCode": "LBE",
+      "scientificName": "Homarus gammarus",
+      "englishName": "European lobster",
+      "frenchName": "Homard européen",
+      "spanishName": "Bogavante",
+      "family": "Nephropidae",
+      "order": "Reptantia"
+    },
+    {
+      "faoCode": "SLO",
+      "scientificName": "Palinurus elephas",
+      "englishName": "Common spiny lobster",
+      "frenchName": "Langouste rouge",
+      "spanishName": "Langosta común",
+      "family": "Palinuridae",
+      "order": "Reptantia"
+    },
+    {
+      "faoCode": "NEP",
+      "scientificName": "Nephrops norvegicus",
+      "englishName": "Norway lobster",
+      "frenchName": "Langoustine",
+      "spanishName": "Cigala",
+      "family": "Nephropidae",
+      "order": "Reptantia"
+    },
+    {
+      "faoCode": "POL",
+      "scientificName": "Pollachius pollachius",
+      "englishName": "Pollack",
+      "frenchName": "Lieu jaune",
+      "spanishName": "Abadejo",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "POK",
+      "scientificName": "Pollachius virens",
+      "englishName": "Saithe(=Pollock)",
+      "frenchName": "Lieu noir",
+      "spanishName": "Carbonero(=Colín)",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "DAB",
+      "scientificName": "Limanda limanda",
+      "englishName": "Common dab",
+      "frenchName": "Limande",
+      "spanishName": "Lenguadina",
+      "family": "Pleuronectidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "LEM",
+      "scientificName": "Microstomus kitt",
+      "englishName": "Lemon sole",
+      "frenchName": "Limande sole",
+      "spanishName": "Mendo limón",
+      "family": "Pleuronectidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "BLI",
+      "scientificName": "Molva dypterygia",
+      "englishName": "Blue ling",
+      "frenchName": "Lingue bleue",
+      "spanishName": "Maruca azul",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "LIN",
+      "scientificName": "Molva molva",
+      "englishName": "Ling",
+      "frenchName": "Lingue franche",
+      "spanishName": "Maruca",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "MGR",
+      "scientificName": "Argyrosomus regius",
+      "englishName": "Meagre",
+      "frenchName": "Maigre commun",
+      "spanishName": "Corvina",
+      "family": "Sciaenidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "MAC",
+      "scientificName": "Scomber scombrus",
+      "englishName": "Atlantic mackerel",
+      "frenchName": "Maquereau commun",
+      "spanishName": "Caballa del Atlántico",
+      "family": "Scombridae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "MAS",
+      "scientificName": "Scomber japonicus",
+      "englishName": "Pacific chub mackerel",
+      "frenchName": "Maquereau espagnol Pacifique",
+      "spanishName": "Estornino del Pacífico",
+      "family": "Scombridae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "SSB",
+      "scientificName": "Lithognathus mormyrus",
+      "englishName": "Sand steenbras",
+      "frenchName": "Marbré",
+      "spanishName": "Herrera",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "WHG",
+      "scientificName": "Merlangius merlangus",
+      "englishName": "Whiting",
+      "frenchName": "Merlan",
+      "spanishName": "Plegonero",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "HKE",
+      "scientificName": "Merluccius merluccius",
+      "englishName": "European hake",
+      "frenchName": "Merlu européen",
+      "spanishName": "Merluza europea",
+      "family": "Merlucciidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "COD",
+      "scientificName": "Gadus morhua",
+      "englishName": "Atlantic cod",
+      "frenchName": "Morue de l'Atlantique",
+      "spanishName": "Bacalao del Atlántico",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "MUF",
+      "scientificName": "Mugil cephalus",
+      "englishName": "Flathead grey mullet",
+      "frenchName": "Mulet à grosse tête",
+      "spanishName": "Pardete",
+      "family": "Mugilidae",
+      "order": "Mugiliformes"
+    },
+    {
+      "faoCode": "MGA",
+      "scientificName": "Liza aurata",
+      "englishName": "Golden grey mullet",
+      "frenchName": "Mulet doré",
+      "spanishName": "Galupe",
+      "family": "Mugilidae",
+      "order": "Mugiliformes"
+    },
+    {
+      "faoCode": "MLR",
+      "scientificName": "Chelon labrosus",
+      "englishName": "Thicklip grey mullet",
+      "frenchName": "Mulet lippu",
+      "spanishName": null,
+      "family": "Mugilidae",
+      "order": "Mugiliformes"
+    },
+    {
+      "faoCode": "MGC",
+      "scientificName": "Liza ramada",
+      "englishName": "Thinlip grey mullet",
+      "frenchName": "Mulet porc",
+      "spanishName": "Morragute",
+      "family": "Mugilidae",
+      "order": "Mugiliformes"
+    },
+    {
+      "faoCode": "BOY",
+      "scientificName": "Bolinus brandaris",
+      "englishName": "Purple dye murex",
+      "frenchName": "Murex-droite épine",
+      "spanishName": "Cañailla",
+      "family": "Muricidae",
+      "order": "Gastropoda"
+    },
+    {
+      "faoCode": "NSQ",
+      "scientificName": "Nassarius mutabilis",
+      "englishName": "Changeable nassa",
+      "frenchName": "Nasse-ceinture",
+      "spanishName": "Mugarida lisa",
+      "family": "Nassariidae",
+      "order": "Gastropoda"
+    },
+    {
+      "faoCode": "UCA",
+      "scientificName": "Umbrina canariensis",
+      "englishName": "Canary drum(=Baardman)",
+      "frenchName": "Ombrine bronze",
+      "spanishName": "Verrugato de Canarias",
+      "family": "Sciaenidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "HLT",
+      "scientificName": "Haliotis tuberculata",
+      "englishName": "Tuberculate abalone",
+      "frenchName": "Ormeau tuberculeux",
+      "spanishName": "Oreja marina tuberculosa",
+      "family": "Haliotidae",
+      "order": "Gastropoda"
+    },
+    {
+      "faoCode": "SBA",
+      "scientificName": "Pagellus acarne",
+      "englishName": "Axillary seabream",
+      "frenchName": "Pageot acarne",
+      "spanishName": "Aligote",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "PAC",
+      "scientificName": "Pagellus erythrinus",
+      "englishName": "Common pandora",
+      "frenchName": "Pageot commun",
+      "spanishName": "Breca",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "RPG",
+      "scientificName": "Pagrus pagrus",
+      "englishName": "Red porgy",
+      "frenchName": "Pagre rouge",
+      "spanishName": "Pargo",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "SYC",
+      "scientificName": "Scyliorhinus canicula",
+      "englishName": "Small-spotted catshark",
+      "frenchName": "Petite roussette",
+      "spanishName": "Pintarroja",
+      "family": "Scyliorhinidae",
+      "order": "Carcharhiniformes"
+    },
+    {
+      "faoCode": "VSC",
+      "scientificName": "Chlamys varia",
+      "englishName": "Variegated scallop",
+      "frenchName": "Pétoncle",
+      "spanishName": "Zamburiña",
+      "family": "Pectinidae",
+      "order": "Bivalvia"
+    },
+    {
+      "faoCode": "GFB",
+      "scientificName": "Phycis blennoides",
+      "englishName": "Greater forkbeard",
+      "frenchName": "Phycis de fond",
+      "spanishName": "Brótola de fango",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "OCC",
+      "scientificName": "Octopus vulgaris",
+      "englishName": "Common octopus",
+      "frenchName": "Pieuvre",
+      "spanishName": "Pulpo común",
+      "family": "Octopodidae",
+      "order": "Cephalopoda"
+    },
+    {
+      "faoCode": "OCT",
+      "scientificName": "Octopodidae",
+      "englishName": "Octopuses, etc. nei",
+      "frenchName": "Pieuvres, poulpes nca",
+      "spanishName": "Pulpitos, pulpos nep",
+      "family": "Octopodidae",
+      "order": "Cephalopoda"
+    },
+    {
+      "faoCode": "WIT",
+      "scientificName": "Glyptocephalus cynoglossus",
+      "englishName": "Witch flounder",
+      "frenchName": "Plie cynoglosse",
+      "spanishName": "Mendo",
+      "family": "Pleuronectidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "PLE",
+      "scientificName": "Pleuronectes platessa",
+      "englishName": "European plaice",
+      "frenchName": "Plie d'Europe",
+      "spanishName": "Solla europea",
+      "family": "Pleuronectidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "SKA",
+      "scientificName": "Raja spp",
+      "englishName": "Raja rays nei",
+      "frenchName": "Pocheteaux et raies raja nca",
+      "spanishName": "Rayas raja nep",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "VEV",
+      "scientificName": "Venus verrucosa",
+      "englishName": "Warty venus",
+      "frenchName": "Praire commune",
+      "spanishName": "Escupina grabada",
+      "family": "Veneridae",
+      "order": "Bivalvia"
+    },
+    {
+      "faoCode": "RJC",
+      "scientificName": "Raja clavata",
+      "englishName": "Thornback ray",
+      "frenchName": "Raie bouclée",
+      "spanishName": "Raya de clavos",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "RJU",
+      "scientificName": "Raja undulata",
+      "englishName": "Undulate ray",
+      "frenchName": "Raie brunette",
+      "spanishName": "Raya mosaica",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "RJF",
+      "scientificName": "Raja fullonica",
+      "englishName": "Shagreen ray",
+      "frenchName": "Raie chardon",
+      "spanishName": "Raya cardadora",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "RJM",
+      "scientificName": "Raja montagui",
+      "englishName": "Spotted ray",
+      "frenchName": "Raie douce",
+      "spanishName": "Raya pintada",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "RJN",
+      "scientificName": "Raja naevus",
+      "englishName": "Cuckoo ray",
+      "frenchName": "Raie fleurie",
+      "spanishName": "Raya santiguesa",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "RJH",
+      "scientificName": "Raja brachyura",
+      "englishName": "Blonde ray",
+      "frenchName": "Raie lisse",
+      "spanishName": "Raya boca de rosa",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "RJE",
+      "scientificName": "Raja microocellata",
+      "englishName": "Small-eyed ray",
+      "frenchName": "Raie mêlée",
+      "spanishName": "Raya colorada",
+      "family": "Rajidae",
+      "order": "Rajiformes"
+    },
+    {
+      "faoCode": "SCS",
+      "scientificName": "Scorpaena spp",
+      "englishName": "Scorpionfishes, rockfishes nei",
+      "frenchName": "Rascasses nca",
+      "spanishName": "Rascacios, cabrachos nep",
+      "family": "Scorpaenidae",
+      "order": "Scorpaeniformes"
+    },
+    {
+      "faoCode": "ALV",
+      "scientificName": "Alopias vulpinus",
+      "englishName": "Thresher",
+      "frenchName": "Renard",
+      "spanishName": "Zorro",
+      "family": "Alopiidae",
+      "order": "Lamniformes"
+    },
+    {
+      "faoCode": "GAG",
+      "scientificName": "Galeorhinus galeus",
+      "englishName": "Tope shark",
+      "frenchName": "Requin-hâ",
+      "spanishName": "Cazón",
+      "family": "Triakidae",
+      "order": "Carcharhiniformes"
+    },
+    {
+      "faoCode": "MUR",
+      "scientificName": "Mullus surmuletus",
+      "englishName": "Surmullet",
+      "frenchName": "Rouget de roche",
+      "spanishName": "Salmonete de roca",
+      "family": "Mullidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "MUT",
+      "scientificName": "Mullus barbatus",
+      "englishName": "Red mullet",
+      "frenchName": "Rouget de vase",
+      "spanishName": "Salmonete de fango",
+      "family": "Mullidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "BSF",
+      "scientificName": "Aphanopus carbo",
+      "englishName": "Black scabbardfish",
+      "frenchName": "Sabre noir",
+      "spanishName": "Sable negro",
+      "family": "Trichiuridae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "JOD",
+      "scientificName": "Zeus faber",
+      "englishName": "John dory",
+      "frenchName": "Saint Pierre",
+      "spanishName": "Pez de San Pedro",
+      "family": "Zeidae",
+      "order": "Zeiformes"
+    },
+    {
+      "faoCode": "SWA",
+      "scientificName": "Diplodus sargus",
+      "englishName": "White seabream",
+      "frenchName": "Sar commun",
+      "spanishName": "Sargo",
+      "family": "Sparidae",
+      "order": "Percoidei"
+    },
+    {
+      "faoCode": "PIL",
+      "scientificName": "Sardina pilchardus",
+      "englishName": "European pilchard(=Sardine)",
+      "frenchName": "Sardine commune",
+      "spanishName": "Sardina europea",
+      "family": "Clupeidae",
+      "order": "Clupeiformes"
+    },
+    {
+      "faoCode": "SAL",
+      "scientificName": "Salmo salar",
+      "englishName": "Atlantic salmon",
+      "frenchName": "Saumon de l'Atlantique",
+      "spanishName": "Salmón del Atlántico",
+      "family": "Salmonidae",
+      "order": "Salmoniformes"
+    },
+    {
+      "faoCode": "CTC",
+      "scientificName": "Sepia officinalis",
+      "englishName": "Common cuttlefish",
+      "frenchName": "Seiche commune",
+      "spanishName": "Sepia común",
+      "family": "Sepiidae",
+      "order": "Cephalopoda"
+    },
+    {
+      "faoCode": "SOL",
+      "scientificName": "Solea solea",
+      "englishName": "Common sole",
+      "frenchName": "Sole commune",
+      "spanishName": "Lenguado común",
+      "family": "Soleidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "OAL",
+      "scientificName": "Solea senegalensis",
+      "englishName": "Senegalese sole",
+      "frenchName": "Sole du Sénégal",
+      "spanishName": "Lenguado senegalés",
+      "family": "Soleidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "MKG",
+      "scientificName": "Microchirus variegatus",
+      "englishName": "Thickback sole",
+      "frenchName": "Sole-pedrix commune",
+      "spanishName": null,
+      "family": "Soleidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "SOS",
+      "scientificName": "Solea lascaris",
+      "englishName": "Sand sole",
+      "frenchName": "Sole-pole",
+      "spanishName": "Lenguado de arena",
+      "family": "Soleidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "SSD",
+      "scientificName": "Spisula spp",
+      "englishName": "Surf clams nei",
+      "frenchName": "Spisules nca",
+      "spanishName": null,
+      "family": "Mactridae",
+      "order": "Bivalvia"
+    },
+    {
+      "faoCode": "SQY",
+      "scientificName": "Squillidae",
+      "englishName": "Squillids nei",
+      "frenchName": "Squilles nca",
+      "spanishName": "Galeras nep",
+      "family": "Squillidae",
+      "order": "Stomatopoda"
+    },
+    {
+      "faoCode": "BIB",
+      "scientificName": "Trisopterus luscus",
+      "englishName": "Pouting",
+      "frenchName": "Tacaud commun",
+      "spanishName": "Faneca",
+      "family": "Gadidae",
+      "order": "Gadiformes"
+    },
+    {
+      "faoCode": "TWL",
+      "scientificName": "Tellina spp",
+      "englishName": "Tellins nei",
+      "frenchName": "Tellines nca",
+      "spanishName": "Telinas nep",
+      "family": "Tellinidae",
+      "order": "Bivalvia"
+    },
+    {
+      "faoCode": "BET",
+      "scientificName": "Thunnus obesus",
+      "englishName": "Bigeye tuna",
+      "frenchName": "Thon obèse(=Patudo)",
+      "spanishName": "Patudo",
+      "family": "Scombridae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "BFT",
+      "scientificName": "Thunnus thynnus",
+      "englishName": "Atlantic bluefin tuna",
+      "frenchName": "Thon rouge de l'Atlantique",
+      "spanishName": "Atún rojo del Atlántico",
+      "family": "Scombridae",
+      "order": "Scombroidei"
+    },
+    {
+      "faoCode": "CRE",
+      "scientificName": "Cancer pagurus",
+      "englishName": "Edible crab",
+      "frenchName": "Tourteau",
+      "spanishName": "Buey de mar",
+      "family": "Cancridae",
+      "order": "Brachyura"
+    },
+    {
+      "faoCode": "TUR",
+      "scientificName": "Scophthalmus maximus",
+      "englishName": "Turbot",
+      "frenchName": "Turbot",
+      "spanishName": "Rodaballo",
+      "family": "Scophthalmidae",
+      "order": "Pleuronectiformes"
+    },
+    {
+      "faoCode": "QSC",
+      "scientificName": "Aequipecten opercularis",
+      "englishName": "Queen scallop",
+      "frenchName": "Vanneau",
+      "spanishName": "Volandeira",
+      "family": "Pectinidae",
+      "order": "Bivalvia"
+    },
+    {
+      "faoCode": "USB",
+      "scientificName": "Labrus bergylta",
+      "englishName": "Ballan wrasse",
+      "frenchName": "Vieille commune",
+      "spanishName": "Maragota",
+      "family": "Labridae",
+      "order": "Percoidei"
+    }
+  ],
+  "size": 113
+}

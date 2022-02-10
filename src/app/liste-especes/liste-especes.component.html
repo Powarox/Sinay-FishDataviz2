@@ -2,8 +2,8 @@
     <div id="filter-tool">
         <h3>Recherche</h3>
         <input type="text" value='' [formControl]="filter"> <!-- [FormControl]="filter" -->
-        <button >Fao <br> Code</button>
-        <button >French <br> Name</button>
+        <button (click)="activateClass('fao')" [ngClass]="{'active': isActiveFao === true}">Fao <br> Code</button>
+        <button (click)="activateClass('fra')" [ngClass]="{'active': isActiveFra === true}">French <br> Name</button>
     </div>
 
     <section class="contentList">       
