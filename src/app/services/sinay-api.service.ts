@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Injectable } from '@angular/core';
 import { Especes } from '../models/especes';
-import * as localData from '../localStorage/data.json';
+// import * as localData from '../localStorage/data.json';
 
 @Injectable({
     providedIn: 'root'

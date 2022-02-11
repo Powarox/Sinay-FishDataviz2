@@ -14,15 +14,7 @@ import { Especes } from '../models/especes';
 })
 
 export class ListeEspecesComponent implements OnInit {
-    // data: Especes[] = this.service.getDataApi();
-
-    data: Especes[] = [
-        { 'faoCode': 'ADC', 'frenchName': 'hgjk', 'scientificName': 'uio' },
-        { 'faoCode': 'AEC', 'frenchName': 'cxc', 'scientificName': 'erofferf' },
-        { 'faoCode': 'ZDC', 'frenchName': 'yuio', 'scientificName': 'dze' },
-        { 'faoCode': 'FGC', 'frenchName': 'azer', 'scientificName': 'dtgsergsg' },
-        { 'faoCode': 'PFC', 'frenchName': 'un truc d', 'scientificName': 'zer' }
-    ];
+    data: Especes[] = this.service.getDataApi();
 
     isActiveFao: Boolean = true;
     isActiveFra: Boolean = false;
@@ -33,9 +25,9 @@ export class ListeEspecesComponent implements OnInit {
     filter$: Observable<string>;
 
     constructor(private service: SinayApiService) { 
-        // this.data = this.service.getDataApi();
+        this.data = this.service.getDataApi();
         this.states$ = of(this.data);
-        this.filter = new FormControl('test');
+        this.filter = new FormControl('');
         this.filter$ = this.filter.valueChanges;
 
         this.filteredStates$ = combineLatest(this.states$, this.filter$).pipe(

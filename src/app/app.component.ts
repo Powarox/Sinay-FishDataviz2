@@ -13,6 +13,6 @@ export class AppComponent {
     constructor(private service: SinayApiService) { }
 
     ngOnInit(): void {
-        // this.service.fetchDataFromSinayApi();
+        this.service.fetchDataFromSinayApi();
     }
 }

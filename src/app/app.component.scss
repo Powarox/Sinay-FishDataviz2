@@ -77,16 +77,26 @@
 
 
 @media (max-width: 515px){
-    .navigation #logo img {
-        width: 150px;
-    }
-    .navigation .nav a {
-        font-size: 20px;
+    .navigation {
+        #logo {
+            img {
+                width: 150px;
+            }
+        }
+        .nav {
+            a {
+                font-size: 20px;
+            }
+        }
     }
 }
 
 @media (max-width: 430px){
-    .navigation #logo img {
-        display: none;
+    .navigation {
+        #logo {
+            img {
+                display: none;
+            }
+        }
     }
 }
